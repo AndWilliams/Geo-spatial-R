@@ -90,4 +90,4 @@ ggplot() +
   geom_point(data=sp_df, aes(x=longitude, y=latitude), col='red', cex=0.2) +
   scale_fill_manual(values = c('black', 'blue')) +
   coord_quickmap() +
-  theme_bw() 
+  theme_bw()
