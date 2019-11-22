@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -l
 #
 #Number of cores requested
 #$ -pe omp 12
@@ -23,4 +23,4 @@ module load R/3.6.0
 
 cd /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo/R
 
-Rscript R/SDM_test
+Rscript R/SDM_test.R
