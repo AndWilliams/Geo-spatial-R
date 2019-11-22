@@ -21,6 +21,6 @@
 
 module load R/3.6.0
 
-cd /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo/R
+cd /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo
 
 Rscript R/SDM_test.R
