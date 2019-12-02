@@ -25,4 +25,4 @@ module load R/3.6.0
 
 cd /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo
 
-Rscript R/SDM_test2.R "Typha latifolia"
+Rscript R/SDM2_test.R "Typha latifolia"
