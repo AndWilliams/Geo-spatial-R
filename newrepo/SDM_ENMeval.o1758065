@@ -1,0 +1,60 @@
+Loading required package: sp
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+There were 21 warnings (use warnings() to see them)
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:raster':
+
+    intersect, select, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: dismo
+Registered S3 method overwritten by 'crul':
+  method                 from
+  as.character.form_file httr
+*** Running ENMevaluate using maxnet v.0.1.2 ***
+Doing evaluations using spatial blocks...
+Of 16 total cores using 24
+Running in parallel...
+ENMeval completed in 1 minutes 14.3 seconds.
+class       : RasterLayer 
+dimensions  : 600, 336, 201600  (nrow, ncol, ncell)
+resolution  : 0.04166667, 0.04166667  (x, y)
+extent      : -72, -58, -50, -25  (xmin, xmax, ymin, ymax)
+coord. ref. : +proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0 
+data source : /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo/data/ Nothofagus antarctica _model.grd 
+names       : layer 
+values      : 0.0009625694, 0.9997439  (min, max)
+
+Warning message:
+Removed 50474 rows containing missing values (geom_raster). 
+class       : RasterLayer 
+dimensions  : 600, 336, 201600  (nrow, ncol, ncell)
+resolution  : 0.04166667, 0.04166667  (x, y)
+extent      : -72, -58, -50, -25  (xmin, xmax, ymin, ymax)
+coord. ref. : +proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs 
+data source : /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo/data/ Nothofagus antarctica _model26.grd 
+names       : layer 
+values      : 0.0004557636, 0.998945  (min, max)
+
+class       : RasterLayer 
+dimensions  : 600, 336, 201600  (nrow, ncol, ncell)
+resolution  : 0.04166667, 0.04166667  (x, y)
+extent      : -72, -58, -50, -25  (xmin, xmax, ymin, ymax)
+coord. ref. : +proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs 
+data source : /project/ct-shbioinf/awilliams/Geo-spatial-R/newrepo/data/ Nothofagus antarctica _model85.grd 
+names       : layer 
+values      : 0.0001655682, 0.9903197  (min, max)
+
